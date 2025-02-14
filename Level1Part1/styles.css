@@ -5,7 +5,7 @@
     width: 800px;
     margin: auto;
     background: #c7cbed;
-    flex-direction: row-reverse
+    flex-direction: row-reverse;
 }
 
 .sidebar {
@@ -32,7 +32,7 @@
 
 .contacts-item {
     font-weight: 200;
-    font-size: 14px;
+font-size: 14px;   
 
     color: #060c19;
     margin-bottom: 10px;
