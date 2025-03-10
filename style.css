@@ -1,15 +1,13 @@
-
-
-.wrapper {
+.container {
     display: flex;
     width: 800px;
     margin: auto;
-    background: #c7cbed;
+    background: linear-gradient(#c7cbed, #f0d5ec);
     flex-direction: row-reverse;
-} 
+}
 
 .sidebar {
-    background: #964aed;
+    background: linear-gradient(#644686, #e8bde1);
     padding: 60px;
     width: 300px;
     order: 2;
@@ -23,7 +21,8 @@
 
 .profile-photo {
     width: 200px;
-    height: 250px;
+    height: 230px;
+    border-radius: 20px;
 }
 
 .contacts-container {
@@ -32,8 +31,7 @@
 
 .contacts-item {
     font-weight: 200;
-font-size: 14px;   
-
+    font-size: 14px;
     color: #060c19;
     margin-bottom: 10px;
 }
@@ -45,8 +43,8 @@ font-size: 14px;
 
 .main-content {
     padding: 40px;
-        width: calc(100% - 250px);
-        order: 0;
+    width: calc(100% - 250px);
+    order: 0;
 }
 
 .main-content-title {
@@ -54,13 +52,14 @@ font-size: 14px;
     font-size: 22px;
     margin-bottom: 10px;
 }
+
 .content-title {
     font-weight: 400;
     font-size: 18px;
     margin-bottom: 10px;
 }
 
-.skills-list{
+.skills-list {
     padding-left: 20px;
 }
 
@@ -70,11 +69,13 @@ font-size: 14px;
     color: #060a10;
     margin-bottom: 5px;
 }
+
 .pacifico-regular {
     font-family: "Pacifico", serif;
     font-weight: 400;
     font-style: normal;
 }
+
 .abril-fatface-regular {
     font-family: "Abril Fatface", serif;
     font-weight: 400;
